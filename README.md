@@ -9,3 +9,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 # Files
 - `CodeBook.md` - describes the variables, the data and any transformations or work that are performed to clean up the data.
+
+- `run_analysis.R` - R script for performing the analysis.
+
+- `tidydata_averages.txt` - an output from `run_analysis.R` (for more information refer to `CodeBook.md`).
