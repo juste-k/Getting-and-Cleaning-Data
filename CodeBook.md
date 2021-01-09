@@ -16,4 +16,9 @@
  
  2. Extracts only the measurements on the mean and standard deviation for each measurement. For the column of `x`, only those measurements are extracted, which have mean or std in their names.
  
- 3. Uses descriptive activity names to name the activities in the data set. 
+ 3. Uses descriptive activity names to name the activities in the data set. All numbers of `y` column are replaced with corresponding activity taken from the second column of `activity_labels.txt`.
+ 
+ 4. Appropriately labels the data set with descriptive variable names. `y` column is renamed.
+ 
+ 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Writes out the data set to `tidy_data.txt`. 
+
