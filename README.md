@@ -12,4 +12,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 - `run_analysis.R` - R script for performing the analysis.
 
-- `tidydata_averages.txt` - an output from `run_analysis.R` (for more information refer to `CodeBook.md`).
+- `tidy_data.txt` - an output from `run_analysis.R` (for more information refer to `CodeBook.md`).
