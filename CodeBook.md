@@ -10,7 +10,7 @@
 - Each row in the `subject_train.txt` and `subject_test.txt` identifies the subject (from 1 to 30) who performed the activity.
 
 # Work
-- The `run_analysis.R` script performs downloading, unzipping, reading in data and then does the following 5 steps:
+The `run_analysis.R` script performs downloading, unzipping, reading in data and then does the following 5 steps:
 
  1. Merges the training and the test sets to create one data set. (Hereafter `X_train.txt` and `X_test.txt` refers to `x`, `y_train.txt` and `y_test.txt` - to `y`, `subject_train.txt` and `subject_test.txt` - to `subject`.) The `x`, `y` and `subject` are binded by row separately and then all three of them are binded by column.
  
@@ -22,3 +22,11 @@
  
  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Writes out the data set to `tidy_data.txt`. 
 
+# Final tidy data
+The final tidy data set (`tidy_data.txt`) produced inside the `run_analysis.R` script, contains 180 observations and 88 variables. 
+
+- The first column refers to subject who did the experiment.
+
+- The second column refers to activity that corresponding subject performed.
+
+- Columns 3-88 refer to the average of each selected feature. 
